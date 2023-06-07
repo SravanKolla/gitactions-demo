@@ -5,7 +5,7 @@ from form import EmployeeForm
 app = Flask(__name__, template_folder='templates')
 app.config['SECRET_KEY'] = 'LongAndRandomSecretKey'
 
-color="green"
+color="Dodgerblue"
 
 @app.route('/')
 def home():
